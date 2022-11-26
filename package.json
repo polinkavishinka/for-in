@@ -1,0 +1,37 @@
+{
+  "name": "for-in",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "coverage": "jest --coverage",
+    "preshow:coverage": "npm run coverage",
+    "show:coverage": "live-server coverage/lcov-report",
+    "preshow:dist": "npm run build",
+    "show:dist": "live-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polinkavishinka/for-in.git"
+  },
+  "author": "polina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/polinkavishinka/for-in/issues"
+  },
+  "homepage": "https://github.com/polinkavishinka/for-in#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "jest": "^29.3.1"
+  },
+  "dependencies": {
+    "core-js": "^3.26.1"
+  }
+}
