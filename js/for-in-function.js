@@ -1,4 +1,5 @@
 
+
 const object = {
     name: 'мечник',
     health: 10,
@@ -11,7 +12,7 @@ const order = ["name", "level"];
 
 console.log(object);
 
-function orderByProps(object, order) {
+export default function orderByProps(object, order) {
     const arr = [];
     console.log(arr);
     
