@@ -1,4 +1,4 @@
-
+import orderByProps from '../for-in-function';
 
 const object = {
     name: 'мечник',
