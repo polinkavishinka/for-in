@@ -1,4 +1,4 @@
-import orderByProps from './for-in-function';
+import orderByProps from '../for-in-function';
 const obj = {
     name: 'мечник',
     health: 10,
