@@ -1,3 +1,5 @@
+import destructuring from '../dstructuring';
+
 const character = {
     name: 'Лучник',
     type: 'Bowman',
